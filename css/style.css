@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    padding: 20px;
+    background-color: #000;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bolder;
+    color: #fff;
+    margin-right: 100px;
+}
+.main-menu li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.main-menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+.banner-sec{
+    padding: 20px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(177, 177, 188);
+    flex-flow: column;
+}
+.banner-sec h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.banner-sec button{
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    background-color: rgb(61, 61, 67);
+    padding: 10px 20px;
+    margin-top: 50px;
+}
+.services{
+    padding: 50px 20px;
+}
+.services h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+.service-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+.service-item{
+    width: 30%;
+    height: 150px;
+    background-color: rgb(253, 200, 208);
+    font-size: 20px;
+    font-weight: bold;
+    color: dimgrey;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    padding: 20px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+}
+.about-sec h3{
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 30px;
+}
+.about-sec p{
+    font-size: 15px;
+    color: #000;
+    font-weight: 500;
+}
